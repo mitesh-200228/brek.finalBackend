@@ -10,7 +10,7 @@ const cors = require('cors')
 connection();
 const corsOption = {
     credentials:true,
-    origin:['*']
+    origin:['https://brek-frontend.herokuapp.com/','https://brek-frontend.herokuapp.com']
 };
 
 app.use(cors(corsOption));
